@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Sign In / Sign Up form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<body>
+        <div class="container_SignUp">
+         <!-- Sign In - Hero Image -->
+            <div class="heroSignInBackground">
+                <div class="heroSignInBackgroundOverlay">
+                    <div class="containerHeroSignIn">
+                        <div class="signInContent">
+                            <h1>Hello friend, welcome!</h1>
+                            <hr>
+                            <p>Login your details to start<br>your journey.</p>
+                        </div> 
+                        <div class="heroSignInButton">   
+                            <button class="buttonHeroSignIn" onclick="signIn()">SIGN IN</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Sign Up - Form --> 
+            <div class="containerSignUp">
+                <div class="socialIcons">
+                    <h1>Create Account</h1>
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="containerFormSignUp">
+                    <form action="#">
+                        <span class ="title">or use your email for registration:</span>
+                        <input type="text" placeholder="Name" />
+                        <input type="email" placeholder="Email" id="emailInputSignUp" />
+                        <div id="emailErrorSignUp" class="error-message"></div>
+                     <input type="password" placeholder="Password" />
+                    </form>
+                </div>
+                <div class="formSignUpButton">
+             <button class="buttonFormSignUp" onclick="performSignUp()">SIGN UP</button>
+                </div>
+           </div>
+        </div>
+        <div class="container_SignIn" id="container_SignIn">
+            <!-- Sign In - Form -->
+            <div class="containerSignIn">
+                <div class="socialIcons">
+                    <h1>Sign In</h1>
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="containerFormSignIn">
+                    <form action="#">
+                        <span class ="title">or use your email account:</span>
+                        <input type="email" placeholder="Email" id="emailInputSignIn" />
+                        <div id="emailErrorSignIn" class="error-message"></div>
+                        <input type="password" placeholder="Password" id="passwordInputSignIn" />
+                        <div id="passwordErrorSignIn" class="error-message"></div>
+                        <a href="#">forgot your password?</a>
+                    </form>
+                </div>
+                <div class="formSignInButton">
+                    <button class="buttonFormSignIn" onclick="signIn()">SIGN IN</button>
+                </div>
+            </div>
+            <!-- Sign Up - Hero Image -->
+            <div class="heroSignUpBackground" id="containerHeroSignUp">
+                <div class="heroSignUpBackgroundOverlay">
+                    <div class="containerHeroSignUp">
+                        <div class="signUpContent">
+                            <h1>Not a member?</h1>
+                            <hr>
+                            <p>Enter your personal details<br>and start your journey.</p>
+                        </div> 
+                        <div class="heroSignUpButton" onclick="signUp()">   
+                            <button class="buttonHeroSignUp">SIGN UP</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+        <footer>
+            <p>Design & Code by<a href="https://www.linkedin.com/in/funmilola-ereyomi-a88026268" target="_blank">EreyomiF</a>- 2023</p>
+            </footer>
+        <script src="script.js"></script>
+    
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

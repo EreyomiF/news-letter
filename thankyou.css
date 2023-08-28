@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+  background: linear-gradient(to bottom, #3c3f89 0%, #573395 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e1e8ed', GradientType=0);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.thank-you-box {
+  width: 90%;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  
+    /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the box horizontally */
+    /* Other styles for the box */
+  
+}
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.8em;
+  letter-spacing: 3px;
+  color: #0a0a0a;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.wrapper-2 p {
+  margin: 0;
+  font-size: 1.1em;
+  color: #aaa;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 1px;
+}
+
+
+/* ... Previous styles ... */
+
+.footer-like {
+  margin-top: 20px;
+  background: #d7e6fe;
+  padding: 20px; /* Match the padding with the thank-you box */
+  text-align: center;
+}
+
+.footer-like p {
+  margin: 0;
+  padding: 4px;
+  color: #5892ff;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 1px;
+}
+
+.footer-like p a {
+  text-decoration: none;
+  color: #5892ff;
+  font-weight: 600;
+}
+
+
+@media (max-width: 600px) {
+  .thank-you-box {
+    max-width: 90%;
+  }
+  
+  .footer-like {
+    margin-top: 10px;
+  }
+}
+
+/* ... Previous styles ... */
+
+.go-home {
+  color: #fff;
+  background: #f64444;
+  border: none;
+  padding: 10px 20px; /* Adjust padding to your preference */
+  margin-top: 20px; /* Add margin at the top to separate from previous content */
+  border-radius: 30px;
+  text-transform: capitalize;
+  box-shadow: 0 10px 16px 1px rgb(45, 53, 73);
+  cursor: pointer; /* Add cursor style to indicate it's clickable */
+  transition: background 0.3s ease; /* Add transition for smoother hover effect */
+}
+
+.go-home:hover {
+  background: #2c3b57; /* Change color on hover */
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  margin-top: 30px; 
+}
+
+.icon-container svg {
+  width: 64px;
+  height: 64px;
+  margin-right: 20px; /* Add margin to the right of the icon */
+
+
+}
+
+/* ... Rest of your styles ... */
